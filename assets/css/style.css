@@ -3,11 +3,13 @@ body{
   margin: 0;
 }
  
+.geral{
+  margin-top: 8em;
+}
 
 .container{
   display: grid;
-  justify-content: center;
-  background-color: #ccc;
+  justify-content: center;  
   grid-template-columns: repeat(4, 100px);
    
   
@@ -20,6 +22,7 @@ body{
   padding: 15px;
   font-size: 1.375rem; 
   border: 1px solid #111;
+  cursor: pointer;
 }
 
 .item8{
